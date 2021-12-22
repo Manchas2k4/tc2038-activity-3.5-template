@@ -6,11 +6,13 @@ En este repositorio encontrarás el archivo "main.cpp". En este archivo deberás
 ```
 // =========================================================
 // File: main.cpp
-// Author: Edward Elric - A00123456
+// Authors:
+//  Edward Elric - A00123456
+//  Alphonse Elric - A00124598
 // Date: 01/01/2021
 // =========================================================
 ```
-Implementa, <span style="text-decoration-line: underline;">en parejas</span>, el algoritmo del problema de "Coloreo de grafos" visto en clase.
+Implementa, <span style="text-decoration-line: underline;">en equipos de 2 personas (máximo)</span>, una solución para el problema de "Coloreo de grafos" visto en clase.
 
 ## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
 El programa recibe un un grafo no dirigido, en forma de matriz de adyacencias. La primera línea de entrada contiene un entero n, indicando el número de vértices del grafo. A continuación n líneas. La i-esima línea contiene n números.  El j-ésimo valor es 1 si el vértice i tiene conexión con el vértice j, 0 en caso contrario.
@@ -50,14 +52,18 @@ Si el segundo comando no tiene ninguna salida, los resultados que obtuviste son 
 
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
 
-- **90%** - Para cada una de las funcionalidades se evaluará:
+- **80%** - Para cada una de las funcionalidades se evaluará:
 
-    - **Excelente (90%)** - pasa correctamente todos los casos de prueba.
-    - **Muy Bien (68%)** - pasa correctamente el 75% de los casos de prueba.
-    - **Bien (45%)** - pasa correctamente el 50% de los casos de prueba.
-    - **Insuficiente (23%)** - pasa correctamente menos del 50% de los casos de prueba.
+    - **Excelente (80%)** - pasa correctamente todos los casos de prueba.
+    - **Muy Bien (60%)** - pasa correctamente el 75% de los casos de prueba.
+    - **Bien (40%)** - pasa correctamente el 50% de los casos de prueba.
+    - **Insuficiente (20%)** - pasa correctamente menos del 50% de los casos de prueba.
 
 - **10%** - El código deberá seguir los lineamientos estipulados en el estándar de codificación: <span class="instructure_file_holder link_holder">[liga_estándar_codificación](estandar.pdf)</span>
+- **10%** - Se especifica (en comentarios) la complejidad computacional de cada uno de las funciones desarrolladas.
 
 ## <span style="color: rgb(26, 99, 169);">**¿Dónde la entrego?**</span>
 Cuando hayas pasado todas las pruebas, recuerda publicar el código en tu repositorio (*git push*).
+
+## <span style="color: rgb(26, 99, 169);">**Importante**</span>
+Recuerda colocar el nombre y las matrículas de ambos integrantes en en los comentarios iniciales. En caso de que se incumpla este punto, se penalizará con 20 puntos sobre la calificación obtenida.
